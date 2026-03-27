@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo - Blogy AI</title>
+  <link rel="stylesheet" href="style_demo.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav">
+    <h2 class="logo">Blogy AI</h2>
+    <a href="index.html" class="back-btn">← Back</a>
+  </div>
+</header>
+
+<!-- DEMO SECTION -->
+<section class="demo">
+
+  <div class="container">
+
+    <h1>Try Blog Generation Live</h1>
+    <p class="subtitle">Enter a keyword and see AI magic happen</p>
+
+    <!-- INPUT AREA -->
+    <div class="input-box">
+      <input type="text" placeholder="Enter keyword (e.g. 'AI in healthcare')">
+      <button onclick="generateBlog()">Generate</button>
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>Generating SEO Blog...</p>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="output" id="output">
+      <h2>AI in Healthcare: Revolutionizing the Future</h2>
+      <p>
+        Artificial Intelligence is transforming the healthcare industry by improving diagnostics,
+        enabling predictive analytics, and enhancing patient care...
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<script>
+function generateBlog(){
+  document.getElementById("loading").style.display = "block";
+  document.getElementById("output").style.display = "none";
+
+  setTimeout(()=>{
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("output").style.display = "block";
+  },2000);
+}
+</script>
+
+</body>
+</html>
