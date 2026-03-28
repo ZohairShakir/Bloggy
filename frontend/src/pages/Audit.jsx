@@ -23,7 +23,8 @@ export function Audit() {
       setResults(res.data);
     } catch (err) {
       console.error(err);
-      setError("Bureau Connection Interrupted: Failed to verify manuscript integrity.");
+      const errorMsg = err.response?.data?.error || err.message || "Bureau Connection Interrupted: Failed to verify manuscript integrity.";
+      setError(typeof errorMsg === 'object' ? JSON.stringify(errorMsg) : errorMsg);
     } finally {
       setLoading(false);
     }

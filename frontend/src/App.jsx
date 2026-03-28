@@ -8,10 +8,12 @@ import { Pipeline } from './pages/Pipeline';
 import { Pricing } from './pages/Pricing';
 import { Results } from './pages/Results';
 import { Auth } from './pages/Auth';
+import { GlobalLoader } from './components/GlobalLoader';
 
 function App() {
   return (
     <Router>
+      <GlobalLoader />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

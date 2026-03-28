@@ -38,7 +38,8 @@ export function Auth() {
         setIsLogin(true);
       }
     } catch (err) {
-      setError(err.response?.data?.error || "Bureau Authentication Failed.");
+      const errorMsg = err.response?.data?.error || err.message || "Bureau Authentication Failed.";
+      setError(typeof errorMsg === 'object' ? JSON.stringify(errorMsg) : errorMsg);
     } finally {
       setLoading(false);
     }
