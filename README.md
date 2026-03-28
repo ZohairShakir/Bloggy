@@ -1,180 +1,106 @@
-# Blogy-Ai---Web-App
-Blogy AI is an AI-powered SEO blog generation platform that creates high-quality, optimized content with a clean, modern SaaS-style interface.
+# ⚡ Blogy AI — SEO Blog Generation Engine
 
-# 🚀 Blogy AI — AI Powered SEO Blog Generator
+> *Transforming raw keyword intent into GEO-ready, publication-grade content — automatically.*
 
-> ✨ Generate SEO-optimized, human-like blogs in seconds with AI
-> 🏆 Built for hackathons • Designed like a real SaaS product
+Built for the **Blogy Prompt & Profit Hackathon (Bizmark'26)** by **Team 32 Bit**.
 
 ---
 
-## 🌐 Overview
+## What is Blogy?
 
-**Blogy AI** is a modern AI-powered platform that helps users generate high-quality, SEO-optimized blog content with minimal effort.
-
-It combines:
-
-* 🧠 AI content generation
-* 📊 SEO auditing
-* ⚙️ Smart content pipeline
-
-All wrapped inside a **clean, startup-style UI**.
+Blogy AI is an end-to-end blog generation engine that takes a single keyword and produces a fully SEO-optimised, AI-detection-safe article — then publishes it across five platforms without any manual intervention. It is designed specifically for Indian SME founders and growth marketers who need consistent, high-ranking content without the cost of a full content team.
 
 ---
 
-## 🔥 Features
+## Features
 
-### ✍️ AI Blog Engine
-
-* Generate blogs in seconds
-* Human-like content output
-* Optimized for readability
-
-### 📊 SEO Audit System
-
-* SEO score analysis
-* Keyword optimization
-* Content improvement suggestions
-
-### ⚙️ Content Pipeline
-
-* Structured workflow (Input → Processing → Output)
-* Easy visualization of blog generation steps
-
-### 📄 Results Dashboard
-
-* Displays generated blogs
-* Clean and readable format
-
-### 💰 Pricing Page
-
-* SaaS-style pricing plans
-* Conversion-focused UI
-
-### 🧪 Demo Page
-
-* Try the product experience
-* Simulates real AI workflow
-
-### 📰 Blogs Page
-
-* Showcases generated blog content
-* Modern dashboard layout
+- **Keyword-to-Blog Pipeline** — Input a keyword, get a publication-ready blog. Blogy handles SERP gap analysis, outline generation, drafting, and validation automatically.
+- **4-Layer Prompt Architecture** — A structured prompt system ensures every blog is SEO-dense, readable, and contextually rich without sounding AI-generated.
+- **GEO Optimisation** — Content is optimised for Generative Engine Optimisation (GEO), making it discoverable in AI-powered search results (ChatGPT, Perplexity, Google AI Overviews).
+- **Multi-Platform Publishing** — One-click publish to Medium, LinkedIn, WordPress, Substack, and Hashnode simultaneously.
+- **AI Detection Bypass** — Readability scoring via Flesch-Kincaid and AI-detection checks via GPTZero to keep content under 25% AI probability.
+- **SEO Audit Bureau** — A built-in dashboard audit tool that scans your existing site for UX bugs, missing schema, thin meta descriptions, and conversion issues — then produces a P0/P1/P2 priority roadmap.
 
 ---
 
-## 🧱 Project Structure
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| LLM Core | Anthropic Claude API (`claude-sonnet-4`) |
+| Keyword Research | SEMrush API / DataForSEO |
+| Readability Scoring | Flesch-Kincaid |
+| AI Detection | GPTZero API |
+| Frontend | React + Next.js |
+| Backend | Node.js |
+| Database | PostgreSQL |
+
+---
+
+## How It Works
 
 ```
-📁 Blogy-AI
-│
-├── index.html
-├── demo.html
-├── results.html
-├── pipeline.html
-├── audit.html
-├── blogs.html
-├── pricing.html
-│
-├── index.css
-├── demo.css
-├── results.css
-├── pipeline.css
-├── audit.css
-├── blogs.css
-├── pricing.css
-│
-└── README.md
+1. KEYWORD INTAKE
+   User enters a target keyword or topic.
+
+2. SERP GAP ANALYSIS
+   Blogy scrapes the top 10 Google results and identifies
+   content gaps, missing subtopics, and ranking opportunities.
+
+3. OUTLINE GENERATION
+   A structured blog outline is generated using the 4-layer
+   prompt architecture, aligned with search intent.
+
+4. BLOG DRAFT
+   The full article is written, then passed through
+   readability and AI-detection validation layers.
+
+5. SEO & GEO OPTIMISATION
+   Meta tags, schema markup, internal linking suggestions,
+   and GEO signals are applied automatically.
+
+6. PUBLISH
+   One-click distribution to all connected platforms.
 ```
 
 ---
 
-## 🎨 UI/UX Highlights
+## Pricing
 
-* 🌈 Modern gradient-based design
-* ⚡ Smooth animations & hover effects
-* 💎 Glassmorphism & clean cards
-* 📱 Fully responsive layout
-* 🎯 Startup-level user experience
-
----
-
-## 🛠️ Tech Stack
-
-* **HTML5**
-* **CSS3 (Advanced UI + Animations)**
-* **Font Awesome Icons**
-* **Google Fonts (Inter)**
+| Plan | Price | Best For |
+|---|---|---|
+| **Starter** | ₹1,999 / month *(free first month)* | Early startups building organic presence |
+| **Builder** | ₹4,999 / month | Startups replacing a marketing hire |
+| **Scale** | Custom Pricing | High-growth teams and agencies |
 
 ---
 
-## 🚀 How to Run
+## Results (Hackathon Demo)
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/blogy-ai.git
-```
-
-2. Open the project folder
-
-3. Run:
-
-```bash
-index.html
-```
+- ✅ 2 production-grade blogs published across 5 platforms
+- ✅ SEMrush content score **> 80%**
+- ✅ GPTZero AI detection rate **< 25%**
+- ✅ Full dashboard audit completed with P0/P1/P2 action roadmap
 
 ---
 
-## 🎯 Purpose
+## Team
 
-This project was built to:
-
-* Showcase **frontend development skills**
-* Demonstrate **AI product UI design**
-* Create a **startup-ready SaaS interface**
-* Compete in **hackathons**
-
----
-
-## 🧠 Future Scope
-
-* 🤖 Real AI integration (OpenAI API)
-* 🔍 Live SEO scoring engine
-* 🌐 Multi-language blog generation
-* 📊 Advanced analytics dashboard
-* 🔗 CMS integrations (WordPress, Notion)
+| Name | Role |
+|---|---|
+| Zoher Shakir | — |
+| Yash Soni | — |
+| Nivan Dubey | — |
+| Saloni Chawda | — |
 
 ---
 
-## 🙌 Acknowledgment
 
-Inspired by modern tools like:
 
-* AI writing platforms
-* SEO optimization tools
-* SaaS dashboards
+## License
+
+This project was built for the Bizmark'26 Hackathon. All rights reserved by Team 32 Bit.
 
 ---
 
-## ⭐ Support
-
-If you like this project:
-
-* ⭐ Star the repository
-* 🍴 Fork it
-* 🚀 Share it
-
----
-
-## 👨‍💻 Author
-
-**Yash Soni**
-Frontend Developer
-
----
-
-## ⚡ Tagline
-
-> "From idea to SEO-optimized blog — in seconds."
-
+*⚡ Blogy AI — The Future of Manuscript Authority.*
