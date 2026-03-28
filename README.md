@@ -86,12 +86,12 @@ Blogy AI is an end-to-end blog generation engine that takes a single keyword and
 
 ## Team
 
-| Name | Role |
+| Name |
 |---|---|
-| Zoher Shakir | — |
-| Yash Soni | — |
-| Nivan Dubey | — |
-| Saloni Chawda | — |
+| Zoher Shakir |
+| Yash Soni |
+| Nivan Dubey |
+| Saloni Chawda |
 
 ---
 
